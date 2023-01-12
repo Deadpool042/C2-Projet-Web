@@ -1,0 +1,97 @@
+//General
+*{
+    border: none!important;
+    overflow-x: hidden;
+}
+
+//Hide ScrollBar 
+::-webkit-scrollbar{
+    display: none;
+   
+  }
+
+//Link Style hover no scale
+
+
+.link-primary a{
+    transition: all 0.4s ease-in-out;
+    &:hover{
+        color: $primary !important ;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+.link-secondary a{
+    transition: all 0.4s ease-in-out;
+    &:hover{
+        color: $primary !important ;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+
+//Link Style hover  scale
+
+.link-primary-size a{
+    transition: all 0.4s ease-in-out;
+    &:hover{
+        color: $primary !important ;
+        font-size: 1.1rem;
+        
+        transition: all 0.4s ease-in-out;
+    }
+
+}
+
+.link-primary-scale a{
+    transition: all 0.4s ease-in-out;
+    &:hover{
+        color: $primary !important ;
+        transform: scale(1.1);
+        transition: all 0.4s ease-in-out;
+        @media (min-width: 992px) {
+            // font-size: 1.1rem;
+            transform:  scale(1.1);
+           
+        }
+    }
+}
+
+
+
+.link-secondary-size a{
+    transition: all 0.4s ease-in-out ;
+    &:hover{
+    font-size: 1.1rem;
+     color: $secondary !important; 
+     transition: all 0.4s ease-in-out ;
+    }
+    
+    
+}
+
+.link-secondary-scale a{
+    transition: all 0.4s ease-in-out;
+    &:hover{
+        color: $secondary !important ;
+        transform: scale(1.1);
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+// Link style contact
+
+.contact-link {
+    transition: all 0.3s ease-in-out;
+    
+    &:hover{
+        background-color: black;
+        color: white !important;
+        font-weight: bold;
+        padding: 6px 10px 6px 10px;
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;
+        
+     
+    }
+}

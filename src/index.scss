@@ -1,0 +1,15 @@
+@import "./styles/globale/variables_overrides";
+
+@import "./styles/globale/setting";
+@import "./styles/globale/mixin";
+
+
+
+@import "./components/accueil/accueil";
+@import "./components/navbar/navBar";
+@import "./components//pages/actualites/actualites";
+@import "./components/contact/contact";
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+

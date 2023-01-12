@@ -1,0 +1,28 @@
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes speed-up {
+    from {
+        animation-timing-function: linear;
+    }
+    to {
+        animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+    }
+}
+
+
+@keyframes flip-vertical-fwd {
+    0% {
+      transform: translateZ(0) rotateY(0);
+    }
+    100% {
+      transform: translateZ(160px) rotateY(180deg);
+    }
+  }
+  

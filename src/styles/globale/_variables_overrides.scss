@@ -1,0 +1,34 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+
+//Body
+
+$body-bg: black;
+
+
+
+
+// Color system
+
+$primary :rgb(208,180,68);
+$secondary :rgb(122,106,40);
+
+.bg-tierciary{
+    background-color :rgb(162,162,162);
+}
+.actu-background-color {
+
+    background-color : rgb(221,221,221);
+}
+$white : #ffff;
+
+
+// Link
+$link-color:  $secondary;
+$link-decoration: none;
+$link-shade-percentage:  0% !default;
+// $link-hover-color:  $primary; 
+// $link-hover-decoration:    null !default;
